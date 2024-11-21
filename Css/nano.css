@@ -185,3 +185,17 @@ a{
         margin: 10px 0 0 23px;
     }
 }
+
+@media (min-width:600px) and (max-width:900px)  {
+    .signup{
+        height: 80vh;
+    }
+    .signup-container{
+        height: 80vh;
+        width: 90%;
+       justify-content: center;
+       margin-left: 25px;
+       margin-top: 0px;
+       box-shadow: 5px 5px 5px -5px #eeebeb;
+    } 
+}
