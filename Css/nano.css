@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    text-indent: 14px;
+}
+input:focus{
+    text-indent: 14px;
+    outline: none;
+}
+::placeholder{
+    color: rgb(166, 166, 192);
+    text-indent: 14px;
+    font-weight: 300;
+}
+select option:nth-child(n){
+    color: black;
+    outline: none;
+} 
+select:focus{
+    outline: none;
+} 
+.signup{
+    height: 125vh;
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 109vh;
+    margin-top: 75.2px;
+    width: 40%;
+    margin-left: 30%;
+    box-shadow:0 0 13px #eeebeb;
+    border-top-style: none;
+}
+h2{
+    text-align: center;
+    /* margin-bottom: -2px; */
+    color: #23065b;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.signup-form p{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(107, 102, 102);
+    margin-top: 33px;
+}
+#first-name{
+    /* height: 50px;
+    width: 170%; */
+    height: 48px;
+    width: 170%;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    font-size: 16px;
+    color: rgb(107, 102, 102);
+    margin-left: -34%;
+    margin-top: 14px;
+}
+#last-name{
+    height: 48px;
+    width: 170%;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    font-size: 16px;
+    color: rgb(107, 102, 102);
+    margin-left: -34%;
+}
+#email{
+    height: 48px;
+    width: 170%;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    font-size: 16px;
+    color: rgb(107, 102, 102);
+    margin-left: -34%;
+}
+#country{
+    height: 48px;
+    width: 170%;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    font-size: 16px;
+    color: rgb(107, 102, 102);
+    margin-left: -34%;
+}
+#phone-number{
+    height: 48px;
+    width: 170%;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    font-size: 16px;
+    color: rgb(107, 102, 102);
+    margin-left: -34%;
+}
+#password{
+    height: 48px;
+    width: 170%;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    font-size: 16px;
+    color: rgb(107, 102, 102);
+    margin-left: -34%;
+}
+#sign-up{
+    height: 48px;
+    width: 170%;
+    border-radius: 5px;
+    border: 1px solid #23065B;
+    font-size: 16px;
+    color: white;
+    background-color: #23065B;
+    font-weight: bold;
+    margin-left: -34%;
+}
+#log-in-alternative{
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    color: #374151;
+}
+a{
+    text-decoration: none;
+    color: #140138;
+
+}
+
+
+
+@media (max-width:600px){
+    .signup{
+        height: 100vh;
+    }
+    .signup-container{
+        height: 94vh;
+        width: 90%;
+       justify-content: start;
+       align-items: start;
+       margin-left: 25px;
+       box-shadow: 5px 5px 5px -5px #eeebeb;
+    } 
+    h2{
+        margin-left: 10px;
+    }
+    #first-name{
+        margin-left: 4.5%;
+        width: 100%;
+    }
+    #last-name{
+        margin-left: 4.5%;
+        width: 100%;
+    }
+    #email{
+        margin-left: 4.5%;
+        width: 100%;
+    }
+    #country{
+        margin-left: 4.5%;
+        width: 100%;
+    }
+    #phone-number{
+        margin-left: 4.5%;
+        width: 100%;
+    }
+    #password{
+        margin-left: 4.5%;
+        width: 100%;
+    }
+    #sign-up{
+        margin-left: 4.5%;
+        width: 100%;
+    }
+    #welcome{
+        margin-left: 25px;
+        font-size: 14px;
+    }
+    #log-in-alternative{
+        margin: 10px 0 0 23px;
+    }
+}
