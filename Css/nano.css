@@ -32,12 +32,10 @@ select:focus{
     margin-top: 75.2px;
     width: 40%;
     margin-left: 30%;
-    box-shadow:0 0 13px #eeebeb;
-    border-top-style: none;
+    box-shadow: 5px 5px 5px -5px #eeebeb;
 }
 h2{
     text-align: center;
-    /* margin-bottom: -2px; */
     color: #23065b;
     font-weight: bold;
     font-family: sans-serif;
@@ -52,8 +50,6 @@ h2{
     margin-top: 33px;
 }
 #first-name{
-    /* height: 50px;
-    width: 170%; */
     height: 48px;
     width: 170%;
     border-radius: 5px;
